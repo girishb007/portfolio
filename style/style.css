@@ -167,8 +167,8 @@ body {
 }
 
 .button:hover {
-  background-color: #dac73c;
-  border-color: #dac73c;
+  background-color: rgb(83, 92, 103);;
+  border-color: rgb(83, 92, 103);;
 }
 .button .mdi {
   vertical-align: middle;
@@ -281,9 +281,15 @@ body {
   font-size: 14pt;
 }
 .highlight4 {
-  color: #dac73c;
+  color: #239de3;
   font-weight: bold;
+  font-size: 60pt;
 
+}
+.highlight5 {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #fcfcfc;
 }
 
 
@@ -1198,8 +1204,9 @@ footer .footnote .highlight {
     padding: 0 10px;
   }
   section:nth-of-type(1) .text {
-    font-size: 32pt;
-    line-height: 36pt;
+    font-size: 17pt;
+    line-height: 18pt;
+    padding-bottom: 2px;
   }
   section:nth-of-type(1) .button {
     padding: 12px 50px 12px 20px;
@@ -1405,7 +1412,7 @@ footer .footnote .highlight {
   color: #fff;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid rgb(76, 0, 255); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
@@ -1425,7 +1432,82 @@ footer .footnote .highlight {
   from, to { border-color: transparent }
   50% { border-color: orange }
 }
+body{
+  background: rgb(254, 254, 254);
+  background-size: cover;
+  font-family: 'Trebuchet MS', sans-serif; 
+}
+.container2{
+  display: inline-block;
+}
+.typed-out{
+  overflow: hidden;
+  /* border-right: .1em solid #2a808f; */
+  white-space: nowrap;
+  animation: typing 4.4s steps(34, end) forwards;
+  font-size: 0.4rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.test {
+  margin-top: 0px;
+  padding-top: 5px;
+}
+i.fa.fa-facebook{
+  border-radius: 100%;
+  font-size: 28px;
+  height: 38px;
+  line-height: 40px;
+  margin: 5px;
+  text-align: center;
+  width: 38px;
+  border: 1px solid #3B5998;
+  color: #3B5998;
+  }
+  .social-media-icons ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
 
+.social-media-icons a {	
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px;
+}
+
+.social-media-icons a:nth-child(1) i {
+	color: #f3f3f3;
+}
+
+.social-media-icons a:nth-child(2) i {
+	color: #e8ebef;
+}
+
+.social-media-icons a:nth-child(3) i {
+	color: #f1eaea;
+}
+
+.social-media-icons a:nth-child(4) i {
+	color: #f5eeea;
+}
+
+.social-media-icons a i:hover{
+	color: rgb(83, 92, 103);
+}
+.socialicons,
+.socialiconshover {
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.8s;
+  margin: 4px;
+}
+.socialiconshover {
+  color: #000;
+}
 
 
 /*# sourceMappingURL=style.css.map */
